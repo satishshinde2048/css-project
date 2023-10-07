@@ -1,0 +1,275 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    background-color:rgba(0,0,0,0.2);
+    color: white;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding:0.5rem 1rem;
+ }
+ .heading{
+    background: url('https://img.freepik.com/free-photo/abstract-background-dynamic-pattern-geometric-texture-modern-triangles_181020-3117.jpg?w=740');
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0rem;
+    text-align: center;
+    color:white ;
+ }
+ .heading h3{
+    font-size: 30px;
+ }
+ .heading h2{
+    font-size: 60px;
+    padding-top: 20px;
+ }
+ .flex-container{
+    /* display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5rem; */
+    display: grid;
+    grid-template-rows: 430px;
+    grid-template-columns: 250px 650px;
+    justify-items: stretch;
+    align-items: stretch;
+    padding-left: 2rem;
+    padding-top: 4rem;
+    column-gap: 14px;
+    justify-content: center;
+    padding-bottom: 4rem;
+ }
+ img{
+    height: 430px;
+    width: 250px;
+    background-color: rgba(0,0,0,0.2);
+ }
+ .about-me{
+    padding-top: 1.7rem;
+    background-color: rgba(225, 235, 230, 0.3);
+ }
+ .about-me h2{
+    color: blue;
+}
+.about-me p{
+    color: rgba(14, 14, 15, 0.4);
+}
+.about-me b{
+    color: black;
+}
+.education{
+    padding-top: 12rem;
+    padding-left: 4rem;
+    padding-bottom: 3rem;
+    padding-right: 4rem;
+    height: 60vh;
+    background: url("https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg?t=st=1654960329~exp=1654960929~hmac=3c3ad83c63af7a6266ea102767868f4396887da23efe2aad31a874b32ddd0e0c&w=740");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.education th{
+    background-color: black;
+    color: white;
+}
+.education table{
+    width: 100%;
+    height: 200px;
+}
+.skill p{
+color: red;
+padding-left: 3rem;
+font-size: 20px;
+}
+.skill{
+    padding-top: 5rem;
+    padding-left: 3rem;
+}
+.skill1{
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: repeat(3,300px);
+    justify-content: space-evenly;
+}
+.cpp{
+    background-color:rgba(225, 235, 230, 1) ;
+    height: 15px;
+    width:180px;
+    border-radius: 20px;
+}
+.cpp div{
+    background-color:blue ;
+    height: 15px;
+    width:126px;
+    border-radius: 20px;
+}
+.js{
+    background-color:rgba(225, 235, 230, 1) ;
+    height: 15px;
+    width:180px;
+    border-radius: 20px;
+}
+.js div{
+    background-color:blue ;
+    height: 15px;
+    width:72px;
+    border-radius: 20px;
+}
+.skill ol li{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.skill .c70{
+    padding-left: 135px;
+}
+.skill .j40{
+    padding-left: 105px;
+}
+.html{
+    background-color:rgba(225, 235, 230, 1) ;
+    height: 15px;
+    width:180px;
+    border-radius: 20px;
+}
+.html div{
+    background-color:blue ;
+    height: 15px;
+    width:72px;
+    border-radius: 20px;
+}
+.skill .h40{
+    padding-left: 135px;
+}
+.css{
+    background-color:rgba(225, 235, 230, 1) ;
+    height: 15px;
+    width:180px;
+    border-radius: 20px;
+}
+.css div{
+    background-color:blue ;
+    height: 15px;
+    width:72px;
+    border-radius: 20px;
+}
+.skill .c40{
+    padding-left: 143px;
+}
+.vscode{
+    background-color:rgba(225, 235, 230, 1) ;
+    height: 15px;
+    width:180px;
+    border-radius: 20px;
+}
+.vscode div{
+    background-color:blue ;
+    height: 15px;
+    width:72px;
+    border-radius: 20px;
+}
+.skill .v40{
+    padding-left: 122px;
+}
+.git{
+    background-color:rgba(225, 235, 230, 1) ;
+    height: 15px;
+    width:180px;
+    border-radius: 20px;
+}
+.git div{
+    background-color:blue ;
+    height: 15px;
+    width:72px;
+    border-radius: 20px;
+}
+.skill .g70{
+    padding-left: 145px;
+}
+.project{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+}
+.grid-container{
+    display: grid;
+    grid-template: repeat(2,200px) / repeat(3,400px);
+    gap: 30px;
+}
+.item3{
+    background: url('https://img.freepik.com/free-photo/abstract-background-dynamic-pattern-geometric-texture-modern-triangles_181020-3117.jpg?w=740');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-me{
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-bottom: 4rem;
+}
+.contact-me1{
+    display: flex;
+    flex-direction: row;
+    
+}
+.contact{
+    padding-right: 11rem;
+}
+.message{
+    /* padding-left: 5rem; */
+    width: 500px;
+    padding-right: 4rem;
+}
+.message fieldset{
+    height: 450px;
+}
+.pad>input{
+    height: 30px;
+    width: 400px;
+}
+.pad{
+    padding-top: 2rem;
+}
+#btn{
+    background-color:rgba(7, 7, 201, 0.7);
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.contact{
+    display: grid;
+    grid-template: repeat(3,150px)/repeat(2,250px);
+    justify-items: stretch;
+    align-items: stretch;
+   gap: 25px;
+}
+.item5{
+    background-color: rgba(121, 121, 123,0.1);
+}
+.social{
+    display: grid;
+    grid-template: 60px/repeat(3,60px);
+    justify-items: stretch;
+    align-items: stretch;
+    column-gap: 30px;
+}
+.item7 img{
+    height: 60px;
+    width: 60px;
+   border-radius: 100%;
+   border: 10px solid black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 40px;
+    margin-top: 0;
+    padding: 1rem;
+    text-align:  center;
+}
